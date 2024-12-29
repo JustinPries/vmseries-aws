@@ -10,7 +10,7 @@ variable "vmseries_ami_id" {
   Specific AMI ID to use for VM-Series instance.
   If `null` (the default), `vmseries_version` and `vmseries_product_code` vars are used to determine a public image to use.
   EOF
-  default     = "ami-06e54a8b2da4eb53"
+  default     = null
   type        = string
 }
 
