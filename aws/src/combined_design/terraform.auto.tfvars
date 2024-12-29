@@ -1,6 +1,6 @@
 ### GENERAL
 region      = "us-west-1" # TODO: update here
-name_prefix = "Priest-VMSERIES"  # TODO: update here
+name_prefix = "redtail-"  # TODO: update here
 
 global_tags = {
   ManagedBy   = "terraform"
@@ -8,7 +8,7 @@ global_tags = {
   Owner       = "PS Team"
 }
 
-ssh_key_name = "VMSERIES" # TODO: update here
+ssh_key_name = "redtail-vmseries" # TODO: update here
 
 ### VPC
 vpcs = {
