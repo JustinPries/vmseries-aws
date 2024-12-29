@@ -8,7 +8,7 @@ global_tags = {
   Owner       = "PS Team"
 }
 
-ssh_key_name = "Fotinet Lab Keypair" # TODO: update here
+ssh_key_name = "VMSERIES" # TODO: update here
 
 ### VPC
 vpcs = {
